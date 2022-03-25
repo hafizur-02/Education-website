@@ -1,0 +1,46 @@
+.service-container .service-card 
+{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.service-container .service-card .image 
+{
+    width: 100%;
+}
+.service-container .service-card .image img
+{
+    width: 100%;
+    height: auto;
+}
+.service-container .service-card .title
+{
+    padding: 10px 10px 20px 10px;
+}
+.service-container .service-card .title h2
+{
+    margin: 0;
+    font-size: 22px;
+}
+.service-container .service-card .title .icon
+{
+    color: #ff4f57;
+    margin-right: 10px;
+}
+.service-container .service-card .title p
+{
+    margin: 7px 0px 20px 0px;
+}
+.service-container .service-card .title .button
+{
+    color: #fff;
+    border: 0 ;
+    background-color: #ac292f;
+    text-decoration: none;
+    padding: 8px 30px;
+    font-weight: 700;
+    border-radius: 2px;
+}
+.service-container .service-card .title .button:hover
+{
+    background-color:#ff4f57 ;
+    transition: all .3s ;
+}

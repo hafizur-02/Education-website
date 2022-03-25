@@ -1,0 +1,63 @@
+.subscribe
+{
+    background-color: #E1E1E1;
+    font-family: 'Roboto', sans-serif;
+}
+.subscribe .subscribe-container
+{
+    padding: 30px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribe .subscribe-container .subscribe-text
+{
+    width: 50%;
+}
+.subscribe .subscribe-container .subscribe-text h4
+{
+    color: #212122;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.subscribe .subscribe-container .subscribe-text h2
+{
+    color: #212122;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0;
+}
+.subscribe .subscribe-container .subscribe-input-box
+{
+    width: 50%;
+}
+.subscribe .subscribe-container .subscribe-input-box input 
+{
+    width: 60%;
+    font-size: 15px;
+    border: 1px solid transparent ;
+    padding: 13px 20px;
+}
+.subscribe .subscribe-container .subscribe-input-box input:focus 
+{
+   outline: 0;
+   border-bottom: 1px solid #ff4f57;
+   transition: all .2s linear;
+}
+.subscribe .subscribe-container .subscribe-input-box button
+{
+    color: #fff;
+    border: 0 ;
+    background-color: #ff4f57;
+    margin-left: 10px;
+    padding: 15px 30px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+.subscribe .subscribe-container .subscribe-input-box button:hover
+{
+    background-color: #ac292f;
+    transition: all .3s;
+}

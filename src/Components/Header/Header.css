@@ -1,0 +1,53 @@
+.header
+{
+
+}
+.header .header-container 
+{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 180px;
+}
+.header .header-container .branding
+{
+    width: 30%;
+}
+.header .header-container .branding .brand-image
+{
+    width: 40%;
+}
+.header .header-container .branding .brand-image img
+{
+    width: 100%;
+}
+.header .header-container .nav-list
+{
+    width: 70%;
+}
+.header .header-container .nav-list ul
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.header .header-container .nav-list ul li
+{
+    list-style: none;
+    padding: 8px 22px;
+}
+.header .header-container .nav-list ul li:hover a
+{
+    color: #ff4f57;
+    transition: all .3s;
+}
+.header .header-container .nav-list ul li a
+{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+

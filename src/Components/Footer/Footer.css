@@ -1,0 +1,163 @@
+.footer
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: #22272b;
+}
+.footer .footer-container
+{
+    padding: 60px 180px 40px 180px ;
+}
+.footer .footer-container .footer-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .footer-container .footer-content .contact-info
+{
+    width: 25%;
+}
+.footer .footer-container .footer-content .contact-info .contact-title h2
+{
+    color: #fff;
+    margin: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.footer .footer-container .footer-content .contact-info .contact-text p
+{
+    color: #AAAAAA;
+}
+.footer .footer-container .footer-content .contact-info .contact-text ul
+{
+    padding-left: 0;
+}
+.footer .footer-container .footer-content .contact-info .contact-text li
+{
+    color: #AAAAAA;
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 19px;
+}
+.footer .footer-container .footer-content .contact-info .contact-text li .icon
+{
+    color: #ff4f57;
+    margin-right: 10px;
+}
+.footer .footer-container .footer-content .latest-news
+{
+    width: 25%;
+}
+.footer .footer-container .footer-content .latest-news .news-title h2
+{
+    color: #fff;
+    margin-top: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.footer .footer-container .footer-content .latest-news .news-text .news-1 , .news-2
+{
+    display: flex;
+    justify-content: start;
+    align-items: top;
+    margin-bottom: 10px;
+}
+.footer .footer-container .footer-content .latest-news .news-text .news-1  .news-img  , .news-2 .news-img
+{
+    width: 100px;
+    margin-right: 25px;
+}
+.footer .footer-container .footer-content .latest-news .news-text .news-1 .news-img img , .news-2 .news-img img
+{
+    width: 100%;
+}
+.footer .footer-container .footer-content .latest-news .news-text .news-1  .news-inner-text a , .news-2  .news-inner-text a
+{
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: 15px;
+}
+.footer .footer-container .footer-content .latest-news .news-text .news-1  .news-inner-text span ,.news-2  .news-inner-text span
+{
+    color: #AAAAAA;
+    font-size: 12px;
+}
+.footer .footer-container .footer-content .courses
+{
+    width: 25%;
+}
+.footer .footer-container .footer-content .courses .course-title h2
+{
+    color: #fff;
+    margin-top: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.footer .footer-container .footer-content .courses .course-text ul
+{
+    padding-left: 0;
+}
+.footer .footer-container .footer-content .courses .course-text li
+{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer .footer-container .footer-content .courses .course-text a
+{
+    color: #AAAAAA;
+    text-decoration: none;
+    font-size: 15px;
+}
+.site-info 
+{    
+    background-color: #1d2023;
+}
+.site-info .site-info-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 180px;
+}
+.site-info .site-info-container .site-info-text span
+{
+    color: #AAAAAA;
+    font-size: 15px;
+}
+.site-info .site-info-container .social-icon ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.site-info .site-info-container .social-icon li
+{
+    list-style: none;
+    width: 30px;
+    height: 30px ;
+    background-color: #444;
+    transition: all .3s;
+}
+.site-info .site-info-container .social-icon li:hover
+{
+    background-color: #ff4f57;
+    
+}
+.site-info .site-info-container .social-icon a
+{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-info .site-info-container .social-icon a .brand-icon
+{
+    font-size: 15px;
+}

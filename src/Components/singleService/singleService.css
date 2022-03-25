@@ -1,0 +1,50 @@
+.single-service-container
+{
+    width: 50%;
+    margin: 30px auto;
+}
+.single-service-container .single-service
+{
+    width: 100%;
+}
+.single-service-container .single-service .image
+{
+    width: 100%;
+}
+.single-service-container .single-service .image img
+{
+    width: 100%;
+}
+.single-service-container .single-service .text 
+{
+   padding: 10px 20px 20px 20px;
+}
+.single-service-container .single-service .text h1
+{
+    font-size: 25px;
+    margin: 0;
+}
+.single-service-container .single-service .text h3
+{
+    font-size: 20px;
+    margin: 7px 0px 0px 0px;
+}
+.single-service-container .single-service .text p
+{
+    text-align: justify;
+}
+.single-service-container .single-service .text button
+{
+    color: #fff;
+    border: 0 ;
+    background-color: #ac292f;
+    text-decoration: none;
+    padding: 8px 30px;
+    font-weight: 700;
+    border-radius: 2px;
+}
+.single-service-container .single-service .text button:hover
+{
+    background-color: #ff4f57;
+    transition: all .3s ;
+}
